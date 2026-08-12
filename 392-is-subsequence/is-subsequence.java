@@ -11,10 +11,6 @@ class Solution {
                 j++;
             }
         }
-        if(i==s.length()){
-            return true;
-        }else{
-            return false;
-        }
+        return i== s.length();
     }
 }
