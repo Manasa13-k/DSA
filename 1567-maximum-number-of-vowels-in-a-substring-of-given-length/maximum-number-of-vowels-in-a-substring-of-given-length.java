@@ -7,8 +7,8 @@ class Solution {
             if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
                 c++;
             }
-            max=c;
         }
+        max=c;
         for(int i=k;i<s.length();i++){
             char ch=s.charAt(i);
             char ch2=s.charAt(i-k);
