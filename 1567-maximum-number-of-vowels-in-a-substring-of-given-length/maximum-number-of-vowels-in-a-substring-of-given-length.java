@@ -17,8 +17,8 @@ class Solution {
             }
             if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
                 c++;
-                max=Math.max(c,max);
             }
+            max=Math.max(c,max);
         }
         return max;
     }
