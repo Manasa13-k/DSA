@@ -4,11 +4,11 @@ class Solution {
         for(int i=0;i<k;i++){
             sum+=nums[i];
         }
-        double max=(double) sum/k;
+        int max=sum;
         for(int i=k;i<nums.length;i++){
             sum=sum-nums[i-k]+nums[i];
-            max=Math.max(max,(double)sum/k);
+            max=Math.max(max,sum);
         }
-        return max;
+        return (double)max/k;
     }
 }
